@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patient Details</title>
+    <link rel="stylesheet" type="text/css" href="connect.php" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Patient Details</h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="PatientName">PatientName</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="patientName"
+                  name="patientName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="relativesName">Relatives Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="relativesName"
+                  name="relativesName"
+		   />
+              </div>
+              <div class="form-group">
+                <label for="age">Patient age</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="number"
+                  name="number"
+                />
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <div>
+                  <label for="male" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="m"
+                      id="male"
+                    />Male</label
+                  >
+                  <label for="female" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="f"
+                      id="female"
+                    />Female</label
+                  >
+                  <label for="others" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="o"
+                      id="others"
+				/>Others</label
+
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="patient id">Patient ID</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="patient id"
+                  name="patient id"
+                    
+
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="pervious problem">Pervious Problem</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="pervious problem"
+                  name="pervious probelm"
+                />
+              </div>
+              <div class="form-group">
+                <label for="present problem">Present Problem</label>
+                <input
+                  type=""
+                  class="form-control"
+                  id="present problem"
+                  name="present problrm"
+                />
+              </div>
+              <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="number"
+                  name="number"
+                />
+              </div>
+              <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+
+    </button>
+  </div>
+  <div class="toast-body">
+  </div>
+</div>
+  </body>
+</html>
